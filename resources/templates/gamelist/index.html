@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>ゲーム一覧</title>
+    <meta charset="UTF-8">
+    <!-- <link href="../../static/css/style.css" rel="stylesheet"></link>
+    <script src='../../static/js/gamelist.js' defer></script> -->
+    <link href="/static/css/style.css" rel="stylesheet"></link>
+    <script src='/static/js/gamelist.js' defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container">
+        <div style="text-align:center">
+          <h1>ゲーム一覧</h1>
+        </div>
+        <input id="create_btn" class="create_btn" type="button" value="新規作成">
+        <!-- ひな形 -->
+        <div id="game_item" class="game_item" style="display: none">
+          <div class="game_text_area">
+              <label class="game_id"></label>
+              <label class="game_title"></label>
+          </div>
+          <input id="edit_btn" class="edit_btn" type="button" value="編集">
+          <input id="del_btn" class="del_btn" type="button" value="削除">
+        </div>
+        <div id="game_list" class="game_list">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ビルドファイル登録</title>
+    <meta charset="UTF-8">
+    <link href="/static/css/style.css" rel="stylesheet"></link>
+    <script src='/static/js/jszip.min.js' defer></script>
+    <script src='/static/js/script.js' defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sub-container">
+        <div style="text-align:center">
+          <h1>ビルドファイル登録・更新</h1>
+        </div>
+        <form>
+          <div class="inputs">
+            <label class="label">ビルドファイル</label>
+            <input id="build_file" class="input_form" type="file" name="name" webkitdirectory directory>
+          </div>
+          <div class="inputs">
+            <label class="label">タイトル</label>
+            <input id="title_text" class="input_form" type="text" name="title">
+          </div>
+          <div class="inputs">
+            <label class="label">制作者</label>
+            <input id="author_text" class="input_form" type="text" name="author">
+          </div>
+          <div class="inputs">
+            <label class="label">サムネイル画像</label>
+            <input id="image_file" class="input_form" type="file" name="image">
+          </div>
+          <div class="inputs">
+              <label class="label">タグ</label>
+              <input id="tag_input_text" class="tag_add_form add_bottom" type="text" name="tag_add">
+              <input id="tag_add_btn" class="tag_add_btn" type="button" value="追加"><br>
+              <!-- タグItemのひな形（非表示） -->
+              <div class="tag_item" id="tag_item" style="display: none">
+                <input class="tag_checkbox add_bottom" type="checkbox" value="Hoge">
+                <label class="tag_text">Hoge</label>
+                <input class="tag_remove_btn" type="button" value="x">
+                <br>
+              </div>
+              <!-- タグのリスト -->
+              <div class="input_form tag_list" id="tag_list">
+              </div>
+          </div>
+          <div class="inputs">
+            <label class="label">バージョン</label>
+            <input id="version_text" class="input_form" type="text" name="version">
+          </div>
+          <div class="inputs">
+             <label class="label">説明文</label>
+             <textarea id="description_text" class="input_form"></textarea>
+          </div>
+          <div class="btn-area">
+            <input type="reset" value="リセット"><input id="submit_btn" class="submit_btn" type="button" value="送信">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

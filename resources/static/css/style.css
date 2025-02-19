@@ -1,0 +1,217 @@
+.sub-container {
+    width: 750px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.textbox {
+    width: 200px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.textbox:focus {
+    outline: 0;
+    border: 2px solid #2196f3;
+}
+
+.btn-submit {
+    display: block;
+    padding: 7px 25px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 4px solid #1d7dcc;
+    background-color: #2196f3;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    appearance: none;
+}
+  
+.btn-submit:active {
+    margin-top: 3px;
+    background-color: #309bf2;
+    border-bottom: 2px solid #006366;
+}
+
+.tag_list {
+    padding-left: 164px;
+}
+
+.tag_item {
+	display: flex;
+	flex-direction: row;
+	width: 318px;
+}
+
+.tag_checkbox {
+	flex-grow: 0.05;
+	margin-left: 0;
+}
+
+.tag_text {
+	flex-grow: 0.95;
+}
+
+.tag_remove_btn {
+	display: block;
+	margin-left: auto;
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	background: #fff;
+	border: 2px solid #FFB366;
+	color: #FFB366;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+/* コピペ脱糞太郎 */
+form {
+	width:600px;
+	margin:0 auto;
+}
+
+.inputs {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.label {
+	float: left;
+	margin-right: 20px;
+	width: 135px;
+	border-left: solid 3px #FFB366;
+	padding-left: 10px;
+}
+
+.input_form {
+	float: left;
+	width: 300px;
+}
+
+.add_bottom {
+	margin-bottom: 10px;
+}
+
+.tag_add_form {
+	width: 245px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+	border: solid 1px #e0e0e0;
+	border-radius:5px;
+	padding:8px;
+	font-size: 15px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.btn-area {
+	text-align: center;
+}
+
+/* input[type="submit"] { */
+.submit_btn {
+	background: #FFB366;
+	border: none;
+	color: #fff;
+	font-size:15px;
+	font-weight:bold;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+input[type="reset"] {
+	background: #aaa;
+	border: none;
+	color: #fff;
+	font-size:15px;
+	font-weight:bold;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+.tag_add_btn {
+	background: #FFB366;
+	border: none;
+	color: #fff;
+	font-size:15px;
+	font-weight:bold;
+	padding: 5px 10px;
+	border-radius: 8px;
+}
+
+/* ゲーム一覧 */
+.game_item {
+	display: flex;
+	flex-direction: row;
+}
+
+.game_text_area {
+	background-color: #f4f4f4;
+	width: 410px;
+	margin: 0px 10px 20px 100px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.game_title {
+	font-size: large;
+	padding: 0px 15px;
+}
+
+.game_id {
+	font-size: large;
+	padding: 0px 15px;
+}
+
+.edit_btn {
+	background: #FFB366;
+	border: none;
+	color: #fff;
+	font-size:15px;
+	font-weight:bold;
+	padding: 5px 10px;
+	border-radius: 8px;
+	margin-right: 10px;
+	width: 60px;
+	height: 47px;
+}
+
+.del_btn {
+	background: #fff;
+	border: none;
+	color: #FFB366;
+	font-size:15px;
+	font-weight:bold;
+	padding: 5px 10px;
+	border: 2px solid #FFB366;
+	border-radius: 8px;
+	width: 60px;
+	height: 47px;
+}
+
+.create_btn {
+	background: #FFB366;
+	border: none;
+	color: #fff;
+	font-size:20px;
+	font-weight:bold;
+	padding: 5px 10px;
+	border-radius: 8px;
+	width: 200px;
+	height: 36px;
+	margin-left: 285px;
+	margin-bottom: 20px;
+}
