@@ -1,4 +1,4 @@
 \.idea
 *.db
+*.pyc
 \resources\files
-\src\__pycache__
