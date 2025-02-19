@@ -1,0 +1,2 @@
+# LauncherServer
+ゲームランチャー用サーバ
