@@ -3,7 +3,7 @@
 [ゲームランチャー](https://github.com/pepi-p/GameLauncher)と組み合わせての使用を想定
 
 # 導入
-pythonで開発しているため，venvで環境を立て，Launcher\srcに移動後，
+pythonで開発しているため，venvで環境を立て，srcに移動後，
 以下のコマンドを実行するとサーバを立てられる
 
 ```
